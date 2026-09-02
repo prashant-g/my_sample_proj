@@ -31,5 +31,5 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: target/release/rust-ci-cd-example.exe
+          files: target/release/my_sample_proj.exe
           generate_release_notes: true
